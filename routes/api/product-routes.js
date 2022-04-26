@@ -5,9 +5,9 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // get all products
 router.get('/', (req, res) => {
-  // find all products
   Product.findAll({
-    // be sure to include its associated Category and Tag data
+  // find all products
+   // be sure to include its associated Category and Tag data
     include: [
       Category,
       {
@@ -143,7 +143,6 @@ router.delete('/:id', (req, res) => {
 console.log(err);
 res.status(500).json(err);
     });  
-  
 });
 
 module.exports = router;
