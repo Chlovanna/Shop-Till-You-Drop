@@ -19,6 +19,7 @@ router.get("/", (req, res) => {
   .catch((err) => {
     console.log(err);
   });
+  });
 
 // get one product
 router.get("/:id", (req, res) => {
