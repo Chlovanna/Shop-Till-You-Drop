@@ -18,6 +18,7 @@ MySQL2
 Sequelize
 dotenv package
 Starter Code
-
+# Video
+https://watch.screencastify.com/v/60SEoQT1BEWSGhjOHpLD
 # Contributor
 Ashley Lawrence
