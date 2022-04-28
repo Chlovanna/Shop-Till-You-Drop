@@ -36,10 +36,9 @@ router.get('/:id', (req, res) => {
  .then((tags) => res.status(200).json(tags))
  .catch((err) => res.status(400).json(err)); 
 });
-
+ // create a new tag
 router.post('/', (req, res) => {
-  // create a new tag
-  Tag.create(req.body)
+   Tag.create(req.body)
   .then((tag) => res.json(tag))
   .catch((err) => {
     console.log(err);
@@ -47,9 +46,9 @@ router.post('/', (req, res) => {
   });
 });
 
+// update a tag's name by its `id` value
 router.put('/:id', (req, res) => {
-  // update a tag's name by its `id` value
-  Tag.update(req.body,
+    Tag.update(req.body,
     {
       where: {
         id: req.params.id,
@@ -71,7 +70,7 @@ res.status(500).json(err);
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
-  Tag.destroy(req.body,
+  Tag.destroy(
     {
       where: {
         id: req.params.id,
