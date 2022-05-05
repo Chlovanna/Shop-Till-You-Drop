@@ -1,5 +1,6 @@
-# ORM Challenge: E-commerce Back End
 # Shop-Till-You-Drop
+ORM Challenge: E-commerce Back End
+
 
 -  GIVEN a functional Express.js API
 -  WHEN I add my database name, MySQL username, and MySQL password to an environment     variable file
@@ -18,7 +19,12 @@ MySQL2
 Sequelize
 dotenv package
 Starter Code
-# Video
+# Demonstration
 https://watch.screencastify.com/v/60SEoQT1BEWSGhjOHpLD
+
+# License
+ MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 # Contributor
 Ashley Lawrence
