@@ -17,10 +17,10 @@ SO THAT I can organize and plan my business
 -  WHEN I test API POST, PUT, and DELETE routes in Insomnia
 -  THEN I am able to successfully create, update, and delete data in my database
 # Tools
-MySQL2
-Sequelize
-dotenv package
-Starter Code
+- MySQL2
+- Sequelize
+- dotenv package
+- Starter Code
 # Demonstration
 https://watch.screencastify.com/v/60SEoQT1BEWSGhjOHpLD
 # License
